@@ -1,0 +1,34 @@
+{
+  "dbcps": {
+    "its_read": {
+      "DriverClassName": "com.mysql.jdbc.Driver",
+      "Url": "jdbc:mysql://rm-bp1ct6242cdckrgo0yo.mysql.rds.aliyuncs.com:3306/its_zhuzb?useUnicode=true&characterEncoding=UTF-8",
+      "Username": "its_zhuzb",
+      "Password": "2763869014ZHu",
+      "InitialSize":20,
+      "MinIdle":20,
+      "MaxIdle":50,
+      "MaxWait":500,
+      "MaxActive":50,
+      "OtherProps": {
+        "TestOnBorrow":true,
+        "ValidationQuery": "select 1 "
+      }
+    },
+    "its_write": {
+      "DriverClassName": "com.mysql.jdbc.Driver",
+      "Url": "jdbc:mysql://rm-bp1ct6242cdckrgo0yo.mysql.rds.aliyuncs.com:3306/its_zhuzb?useUnicode=true&characterEncoding=UTF-8",
+      "Username": "its_zhuzb",
+      "Password": "2763869014ZHu",
+      "InitialSize":20,
+      "MinIdle":20,
+      "MaxIdle":50,
+      "MaxWait":500,
+      "MaxActive":50,
+      "OtherProps": {
+        "TestOnBorrow":true,
+        "ValidationQuery": "select 1 "
+      }
+    }
+  }
+}
